@@ -1,4 +1,5 @@
-CREATE DATABASE student_management;
+CREATE DATABASE if not exists student_management;
+USE student_management;
 CREATE TABLE class (
     id int,
     name varchar(45)
