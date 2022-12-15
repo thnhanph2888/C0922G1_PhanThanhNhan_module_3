@@ -1,6 +1,5 @@
 create database sales_management;
 use sales_management;
-
 create table customer(
 	customer_id int auto_increment primary key,
     customer_name varchar(45),

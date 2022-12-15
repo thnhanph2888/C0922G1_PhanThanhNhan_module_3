@@ -1,6 +1,5 @@
 create database commodity_management;
 use commodity_management;
-
 create table phieu_xuat(
 	so_px int auto_increment primary key,
     ngay_xuat date
