@@ -1,4 +1,4 @@
--- Task 1: Thêm mới thông tin cho tất cả các bảng có trong CSDL để có thể thoả mãn các yêu cầu bên dưới.
+-- Task 1.1, 1.2: Thêm mới thông tin cho tất cả các bảng có trong CSDL để có thể thoả mãn các yêu cầu bên dưới.
 create database furama_resort_management;
 use furama_resort_management;
 
@@ -19,15 +19,15 @@ create table bo_phan(
 
 create table nhan_vien(
    ma_nhan_vien int primary key,
-   ten varchar(45),
-   ngaysinh date,
+   ho_ten varchar(45),
+   ngay_sinh date,
    so_cmnd varchar(45),
    luong double,
    so_dien_thoai varchar(45),
    email varchar(45),
    dia_chi varchar(45),
-   ma_tri_tri int,
-   foreign key (ma_tri_tri) references vi_tri(ma_vi_tri),
+   ma_vi_tri int,
+   foreign key (ma_vi_tri) references vi_tri(ma_vi_tri),
    ma_trinh_do int,
    foreign key (ma_trinh_do) references trinh_do(ma_trinh_do),
    ma_bo_phan int,
@@ -36,7 +36,7 @@ create table nhan_vien(
 
 create table loai_khach(
    ma_loai_khach int primary key,
-   loai_khach_hang varchar(45)
+   ten_loai_khach varchar(45)
 );
 
 create table khach_hang(
@@ -64,14 +64,14 @@ create table kieu_thue(
 
 create table dich_vu(
    ma_dich_vu int primary key,
+   ten_dich_vu varchar(45),
+   dien_tich int,
+   chi_phi_thue double,
+   so_nguoi_toi_da int,
    ma_kieu_thue int,
    foreign key(ma_kieu_thue) references kieu_thue(ma_kieu_thue),
    ma_loai_dich_vu int,
    foreign key(ma_loai_dich_vu) references loai_dich_vu(ma_loai_dich_vu),
-   ten_dich_vu varchar(45),
-   dientich int,
-   chi_phi_thue double,
-   so_nguoi_toi_da int,
    tieu_chuan_phong varchar(45),
    mo_ta_tien_nghi_khac varchar(45),
    dien_tich_ho_boi double,
