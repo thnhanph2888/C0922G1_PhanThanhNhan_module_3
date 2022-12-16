@@ -9,7 +9,7 @@ create table class(
 );
 
 create table student(
-	student_id int primary key,
+	student_id int auto_increment primary key,
     student_name varchar(30) not null,
     address varchar(50),
     phone varchar(20),
@@ -26,8 +26,8 @@ create table this_subject(
 
 create table mark(
 	mark_id int auto_increment primary key,
-    sub_id int not null unique,
-    student_id int not null unique,
+    sub_id int not null,
+    student_id int not null,
     mark float default 0 check (mark between 0 and 100),
     examtimes tinyint default 1
 );
