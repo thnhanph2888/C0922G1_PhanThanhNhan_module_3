@@ -14,7 +14,7 @@ values ('Hoa', 'Hai phong', 1, 1);
 insert into student (student_name, address, phone, status, class_id)
 values ('Manh', 'HCM', '0123123123', 0, 2);
 
-insert into this_subject
+insert into subject
 values (1, 'CF', 5, 1),
        (2, 'C', 6, 1),
        (3, 'HDJ', 5, 1),
