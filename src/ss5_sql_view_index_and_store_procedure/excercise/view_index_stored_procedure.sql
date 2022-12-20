@@ -20,9 +20,10 @@ values
 
 alter table product add index idx_product_code (product_code);
 explain select * from product where product_code = 'ds';
-alter table product drop index idx_name_and_gia;
 alter table product add index idx_name_and_gia (product_name, product_price);
 explain select * from product where product_name = 'ds';
+
+alter table product drop index idx_name_and_gia;
 
 create view view_product as
 select product_code, product_name, product_price, product_status 
