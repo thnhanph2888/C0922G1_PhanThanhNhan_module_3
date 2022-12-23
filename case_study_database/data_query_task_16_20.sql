@@ -1,16 +1,16 @@
 use furama_resort_management;
 
 -- 16.Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2019 đến năm 2021.
+
 set sql_safe_updates = 0;
-delete from nhan_vien
+delete from nhan_vien 
 where ma_nhan_vien 
 not in  
-(select * from (select nv.ma_nhan_vien 
-from nhan_vien nv 
-join hop_dong hd on nv.ma_nhan_vien = hd.ma_nhan_vien 
-where year(hd.ngay_lam_hop_dong) in (2019, 2020, 2021)) as new) ;
+(select hd.ma_nhan_vien 
+from hop_dong hd 
+where year(hd.ngay_lam_hop_dong) in (2019, 2020, 2021))  ;
 set sql_safe_updates = 1;
-
+select * from hop_dong;
 -- 17.Cập nhật thông tin những khách hàng có ten_loai_khach từ Platinum lên Diamond, 
 -- chỉ cập nhật những khách hàng đã từng đặt phòng với Tổng Tiền thanh toán trong năm 2021 là lớn hơn 10.000.000 VNĐ.
 set sql_safe_updates = 0;
@@ -33,8 +33,9 @@ set sql_safe_updates = 1;
 
 -- 18.Xóa những khách hàng có hợp đồng trước năm 2021 (chú ý ràng buộc giữa các bảng).
 set sql_safe_updates = 0;
-delete from khach_hang kh 
-where kh.ma_khach_hang in 
+
+delete from khach_hang  
+where ma_khach_hang in 
 (select * from (select kh.ma_khach_hang 
 from khach_hang kh
 join hop_dong hd on kh.ma_khach_hang = hd.ma_khach_hang

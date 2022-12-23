@@ -28,8 +28,8 @@ left join nhan_vien nv on hd.ma_nhan_vien = nv.ma_nhan_vien
 join khach_hang kh on hd.ma_khach_hang = kh.ma_khach_hang
 join dich_vu dv on hd.ma_dich_vu = dv.ma_dich_vu
 left join hop_dong_chi_tiet hdct on hdct.ma_hop_dong = hd.ma_hop_dong
-where month(hd.ngay_lam_hop_dong) in (10, 11, 12) and year(hd.ngay_lam_hop_dong) = 2020
-and hd.ma_hop_dong not in (select hd.ma_hop_dong from hop_dong hd where month(hd.ngay_lam_hop_dong) in (1, 2, 3, 4, 5, 6) and year(hd.ngay_lam_hop_dong) = 2021)
+where quater(hd.ngay_lam_hop_dong) = 4 and year(hd.ngay_lam_hop_dong) = 2020
+and hd.ma_hop_dong not in (select hd.ma_hop_dong from hop_dong hd where quater(hd.ngay_lam_hop_dong) in (1,2) and year(hd.ngay_lam_hop_dong) = 2021)
 group by hd.ma_hop_dong;
 
 -- 13.Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng.
@@ -38,14 +38,12 @@ create view so_luong_dich_vu_di_kem as
 	select dvdk. ma_dich_vu_di_kem, sum(hdct.so_luong) as tong_luot_dat
 	from dich_vu_di_kem dvdk
 	join hop_dong_chi_tiet hdct on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
-	join hop_dong hd on hdct.ma_hop_dong = hdct.ma_hop_dong 
     group by dvdk. ma_dich_vu_di_kem 
     order by dvdk. ma_dich_vu_di_kem desc
     limit 1 ;
 select dvdk.*, sum(hdct.so_luong) as tong_luot_dat
 from dich_vu_di_kem dvdk
 join hop_dong_chi_tiet hdct on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
-join hop_dong hd on hdct.ma_hop_dong = hdct.ma_hop_dong 
 group by dvdk. ma_dich_vu_di_kem 
 having tong_luot_dat = (select tong_luot_dat from so_luong_dich_vu_di_kem);
 
