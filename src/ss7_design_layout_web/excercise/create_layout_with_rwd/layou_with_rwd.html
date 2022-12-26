@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout RWD</title>
+    <link rel="stylesheet" type="text/css" href="rwd.css">
+    <style>
+        body {
+            font-family: Arial,serif;
+        }
+
+        #menu {
+            height: 100px;
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+            border: 2px solid #CDCDCD;
+        }
+
+        #menu ul, #menu li {
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li a {
+            width: 100px;
+            height: 30px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: #d5d5d5;
+        }
+
+        #menu ul ul li a {
+            width: 200px;
+            text-align: left;
+            padding-left: 10px;
+        }
+        #menu li a:hover {
+            background-color: green;
+        }
+
+        #menu ul ul {
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            visibility: hidden;
+        }
+
+        #menu ul li:hover ul {
+            visibility: visible;
+        }
+
+        .link {
+            padding-top: 80%;
+            padding-left: 32%;
+            color: blue;
+        }
+
+        .li {
+            padding-top: 10px;
+            list-style: none;
+        }
+
+        .ads {
+            border: 2px solid #9a9999;
+            margin-top: 10px;
+            margin-left: 48px;
+            padding: 20px;
+            background-color: #d2d0d0;
+            border-radius: 5px;
+            width: 120px;
+            height: 65px;
+        }
+    </style>
+</head>
+<body>
+<div id="menu" style="height: 60px" class="row header col-l-12">
+        <div style="margin: auto; font-size: 20px">
+            Logo
+        </div>
+        <ul style="width: 87%">
+            <li class="col-l-1"><a href="#">Home</a>
+                <ul>
+                    <li><a href="#">Computing Fundametal</a></li>
+                    <li><a href="#">C Programming</a></li>
+                    <li><a href="#">Building Dynamic Website</a></li>
+                    <li><a href="#">MS Transact-SQL</a></li>
+                    <li><a href="#">Project</a></li>
+                </ul>
+            </li>
+            <li class="col-l-1"><a href="#">About</a>
+                <ul>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">APJ - I</a></li>
+                    <li><a href="#">APJ - II</a></li>
+                    <li><a href="#">APJ - III</a></li>
+                    <li><a href="#">eProject</a></li>
+                </ul>
+            </li>
+            <li class="col-l-1"><a href="#">Projects</a></li>
+            <li class="col-l-7"><a href="#">Contact</a></li>
+        </ul>
+        <div style=" margin-right: 10px">
+            <img style=" display: inline" src="imgs.png" alt="Failed" width="24" height="24">
+            <a style="color: #7abaff; display: inline" href="#">Login</a>
+        </div>
+</div>
+<div class="row col-l-12">
+
+        <div class="col-l-2 linkparent">
+            <ul >
+                <li class="li"><a class="link">Link</a></li>
+                <li class="li"><a class="link">Link</a></li>
+                <li class="li"><a class="link">Link</a></li>
+            </ul>
+        </div>
+
+        <div style="height: 600px" class="col-l-8">
+           <div style="padding: 20px">
+               <h1>Welcome</h1>
+               <p>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text.
+                   “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine
+                   answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English,
+                   which is why at a glance it looks pretty real.”
+               </p>
+           </div>
+            <hr>
+            <div style="padding: 20px 20px 100px 20px">
+                <h3>Test</h3>
+                <p>Lorem ipsum... </p>
+            </div>
+        </div>
+
+        <div class="col-l-2 quangcao">
+            <p class="ads">ads</p>
+            <p class="ads">ads</p>
+        </div>
+</div>
+<div class="row footer col-s-12">
+    Footer text
+</div>
+</body>
+</html>
