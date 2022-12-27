@@ -6,14 +6,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="landing_page.css"/>
+    <style>
+        .view {
+            width: 35%;
+            height: 80%;
+            top: 25%;
+            left: 5%;
+        }
+    </style>
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="..." class="img-fluid" alt="...">
+            <div class="container-fluid ms-5">
+                <a class="navbar-brand border-start " href="#">
+                    <img src="../build_landing_page/img/microsoft.png" class="img-fluid" alt="hinh anh" width="30px">
                     <span>Microsoft</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -75,8 +83,8 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Support</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shop Deal</a>
+                        <li class="nav-item " style="margin-right: 10rem">
+                            <a class="nav-link active text-white btn btn-primary" aria-current="page" href="#">Shop Deal</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -112,102 +120,35 @@
             </div>
         </nav>
     </div>
-
-    <div class="row" style="background-color: #c4c4c4">
-        <div class="col" >
-
-            <input class="float-end" type="checkbox" height="20px">
-            <span class="float-end">Animation</span>
+    <div class="row align-content-center" style="background-color: #e0e0e0; height: 45px">
+        <div class="col mt-1" >
+            <div class="form-check form-switch float-end border-start border-5 ps-5 ">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            </div>
+            <span class="float-end me-2">Animation</span>
         </div>
     </div>
-    <div class="row d-flex justify-content-center">
-        <p class="bg-black text-white">Grab deals when you shop our holiday sale on select Surface laptops, tablets, and 2-in-1s.Shop deals </p>
+    <div class="row bg-black">
+        <div class="d-flex justify-content-center">
+            <a class="text-white">Grab deals when you shop our holiday sale on select Surface laptops, tablets, and 2-in-1s.Shop deals </a>
+        </div>
+
+    </div>
+    <div class="row">
+         <div class="col-l-12">
+              <img src="../build_landing_page/img/bg_landing_web.jpg" alt="hinh anh" width="100%">
+         </div>
+        <div class="position-absolute view">
+            <h1 class="text-white" style="font-size: 500%;">Laptops designed by Microsoft</h1>
+            <h4 class="text-white">Unwrap inspiration this season with Surface laptops and 2-in-1s featuring the best of Windows 11.</h4>
+            <div>
+                <span><a class="text-white" style="font-size: 0%">Surface Pro 9</a></span>
+                <span><a class="text-white">Surface Laptop 5</a></span>
+                <span><a class="text-white">Explore all</a></span>
+            </div>
+        </div>
     </div>
 </div>
-
-<!--<div id="menu">-->
-<!--    <ul>-->
-<!--        <li>  <img src="img" alt="hinh anh"></li>-->
-<!--        <li class="option"><a href="#">Surface</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#">Computers</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#"> Computer for Business</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#">Accessories</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#">Shop Now</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#">Support</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-<!--        <li class="option"><a href="#">Shop Deal</a>-->
-<!--            <ul>-->
-<!--                <li><a href="#">option 1</a></li>-->
-<!--                <li><a href="#">option 2</a></li>-->
-<!--                <li><a href="#">option 3</a></li>-->
-<!--                <li><a href="#">option 4</a></li>-->
-<!--            </ul>-->
-<!--        </li>-->
-
-<!--    </ul>-->
-<!--    <ul>-->
-<!--        <li>All Microsoft</li>-->
-<!--        <li>-->
-<!--            <span>Search</span>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <span>Card</span>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <span>Sign in</span>-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</div>-->
-<!--<div>-->
-<!--    supplement-->
-<!--</div>-->
-<!--<div>-->
-<!--    body-->
-<!--</div>-->
-<!--<div>-->
-<!--    footer-->
-<!--</div>-->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
