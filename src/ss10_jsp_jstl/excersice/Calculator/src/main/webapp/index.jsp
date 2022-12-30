@@ -15,8 +15,8 @@
         <select name="operator">
             <option value="+">Addition</option>
             <option value="-">Subtraction</option>
-            <option value="*">Division</option>
-            <option value="/">Multiplication</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
         </select>
     </label> <br>
     <label>Second operand
