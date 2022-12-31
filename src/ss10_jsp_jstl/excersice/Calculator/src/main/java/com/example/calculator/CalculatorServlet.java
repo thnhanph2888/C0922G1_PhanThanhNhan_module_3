@@ -37,7 +37,7 @@ public class CalculatorServlet extends HttpServlet {
                     result = firstOperand / Calculator.calculate(secondOperand);
                     dataOutput += "result: " + result;
                 } catch (DivisionException e) {
-                    dataOutput += "second operand can not 0";
+                    dataOutput += "second operand can not 0!";
                 }
                 break;
         }
