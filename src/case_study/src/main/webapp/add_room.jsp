@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>House</title>
+    <title>Add New Room</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
 <body>
@@ -29,10 +29,59 @@
     </ul>
 </div>
 <div>
-    <input type="text" name="name_service">
-    <input type="text" name="name_service">
-    <input type="text" name="name_service">
-    <input type="text" name="name_service">
+    <form class="col-md-3 ms-5">
+        <table>
+            <tr>
+                <td>
+                    <label for="id_service">id: </label>
+                </td>
+                <td>
+                    <input id="id_service" type="text" name="id_service">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="area_service">Diện tích sử dụng: </label>
+                </td>
+                <td>
+                    <input id="area_service" type="text" name="area_service">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cost_service">Chi phí thuê: </label>
+                </td>
+                <td>
+                    <input id="cost_service" type="text" name="cost_service">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="max_people">Số lượng người tối đa: </label>
+                </td>
+                <td>
+                    <input id="max_people" type="text" name="max_people">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rent_type_id">Kiểu thuê: </label>
+                </td>
+                <td>
+                    <input id="rent_type_id" type="text" name="rent_type_id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="facility_free">Dịch vụ miễn phí đi kèm: </label>
+                </td>
+                <td>
+                    <input id="facility_free" type="text" name="facility_free">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="add">
+    </form>
 </div>
 </body>
 <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>

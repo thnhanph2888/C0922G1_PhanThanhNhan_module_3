@@ -1,21 +1,22 @@
 <%--
   Created by IntelliJ IDEA.
   User: nhand
-  Date: 12/31/2022
-  Time: 11:01 AM
+  Date: 1/1/2023
+  Time: 10:49 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Service</title>
+    <title>Customer</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
 <body>
 <div class="d-flex justify-content-center mt-5">
-    <h1>Service</h1>
+    <h1>Customer</h1>
 </div>
 <%--modal--%>
+
 <div id="delete" class="modal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -38,16 +39,14 @@
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">Tên dịch vụ</th>
-        <th scope="col">Diện tích sử dụng</th>
-        <th scope="col">Chi phí thuê</th>
-        <th scope="col">số lượng người tối đa</th>
-        <th scope="col">Kiểu thuê</th>
-        <th scope="col">Tiêu chuẩn phòng</th>
-        <th scope="col">Mô tả tiện nghi khác</th>
-        <th scope="col">Diện tích hồ bơi</th>
-        <th scope="col">Số tầng</th>
-        <th scope="col">Dịch vụ miễn phí đi kèm</th>
+        <th scope="col">Họ tên</th>
+        <th scope="col">Ngày Sinh</th>
+        <th scope="col">Giới tính</th>
+        <th scope="col">Số CMND</th>
+        <th scope="col">Điện thoại</th>
+        <th scope="col">Email</th>
+        <th scope="col">Loại khách</th>
+        <th scope="col">Địa chỉ</th>
         <th scope="col"></th>
         <th scope="col"></th>
         <th scope="col"></th>
@@ -55,7 +54,6 @@
     </thead>
     <tbody>
     <tr>
-        <td>Mark</td>
         <td>Mark</td>
         <td>Otto</td>
         <td>@mdo</td>
@@ -65,14 +63,11 @@
         <td>@mdo</td>
         <td>@mdo</td>
         <td>
-
-        </td>
-        <td>
-            <a href="/addVilla">
+            <a href="/addCustomer">
                 <button type="button" class="btn btn-primary">add</button>
             </a>
         <td>
-            <a href="/editVilla">
+            <a href="/editCustomer">
                 <button type="button" class="btn btn-primary">edit</button>
             </a>
         </td>
@@ -85,8 +80,6 @@
     <tr>
         <td>Jacob</td>
         <td>Thornton</td>
-        <td>@fat</td>
-        <td>@fat</td>
         <td>@fat</td>
         <td>@fat</td>
         <td>@fat</td>
@@ -109,8 +102,6 @@
         </td>
     </tr>
     <tr>
-        <td>@twitter</td>
-        <td>@twitter</td>
         <td>@twitter</td>
         <td>@twitter</td>
         <td>@twitter</td>

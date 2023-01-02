@@ -17,7 +17,7 @@
         <span class="col-md-3 ">Phan Thành Nhân</span>
     </div>
 <%--    nav bar--%>
-    <div class="row border bg-secondary">
+    <div class="row border bg-opacity-10">
         <ul class="col-md-7 nav justify-content-center">
             <li class="nav-item ">
                 <a class="nav-link text-black active" aria-current="page" href="#">Home</a>
@@ -26,7 +26,7 @@
                 <a class="nav-link text-black" href="#">Employee</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-black" href="#">Customer</a>
+                <a class="nav-link text-black" href="/customer">Customer</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-black " href="/villa">Service</a>
