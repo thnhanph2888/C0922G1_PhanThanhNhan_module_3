@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd4331ea-6fcc-4911-b181-a9d9d2985670" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/.idea/case_study_for_jsp_servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/out/production/case_study_for_jsp_servlet/.idea/case_study_for_jsp_servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/java/com/example/view/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study_for_jsp_servlet/view/src/main/webapp/webapp/img/furama_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/dictionnary/src/main/webapp/translale.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/dictionnary/src/main/webapp/translale.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/.idea/ss8_bootstrap_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/.idea/ss8_bootstrap_basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/exersice/build_landing_page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_basic/exersice/build_landing_page/landing_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/src/main/java/com/example/java_web_currency_converter/ConvertServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/src/main/java/com/example/java_web_currency_converter/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/java_web_currency_converter/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/runConfigurations/furama.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/java/com/example/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/img/furama_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/new/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/java/com/example/view/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss9_overview_web/practice/view/src/main/webapp/webapp/img/furama_logo.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2JnJhbeeAyoWdQOpezuzUfTXLBD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd4331ea-6fcc-4911-b181-a9d9d2985670" name="Changes" comment="" />
+      <created>1672708036762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672708036762</updated>
+      <workItem from="1672708038524" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
