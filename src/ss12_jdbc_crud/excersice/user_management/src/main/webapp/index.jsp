@@ -9,5 +9,6 @@
 </h1>
 <br/>
 <a href="/users">Start</a>
+<a href="/users?action=test-use-tran">Test</a>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <html>
 <head>
   <title>Edit Customer</title>
-  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
 <body>
 <div class="d-flex justify-content-center mt-5">
@@ -17,7 +17,7 @@
 </div>
 <div>
   <form class="col-md-3 ms-5">
-    <table>
+    <table class="table">
       <tr>
         <td>
           <label for="name_customer">Họ tên: </label>
@@ -87,5 +87,5 @@
   </form>
 </div>
 </body>
-<script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+<script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 </html>

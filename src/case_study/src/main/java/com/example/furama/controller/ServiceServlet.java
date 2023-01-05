@@ -5,8 +5,8 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "ServiceServlet", value = "/villa")
-public class ServiceSevlet extends HttpServlet {
+@WebServlet(name = "ServiceServlet", value = "/service")
+public class ServiceServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");

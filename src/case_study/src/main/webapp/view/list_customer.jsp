@@ -34,6 +34,94 @@
         </div>
     </div>
 </div>
+
+<div id="edit" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/customer?edit" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <table class="table">
+                                <tr>
+                                    <td>
+                                        <label for="name_customer">Họ tên: </label>
+                                    </td>
+                                    <td>
+                                        <input id="name_customer" type="text" name="name_customer">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="birthday_customer">Ngày sinh: </label>
+                                    </td>
+                                    <td>
+                                        <input id="birthday_customer" type="text" name="birthday">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="gender_customer">Giới tính: </label>
+                                    </td>
+                                    <td>
+                                        <input id="gender_customer" type="text" name="gender_customer">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="id_card_customer">Số CMND: </label>
+                                    </td>
+                                    <td>
+                                        <input id="id_card_customer" type="text" name="id_card_customer">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="phone_customer">Điện thoại: </label>
+                                    </td>
+                                    <td>
+                                        <input id="phone_customer" type="text" name="phone_customer">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="email_customer">Email: </label>
+                                    </td>
+                                    <td>
+                                        <input id="email_customer" type="text" name="email_customer">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="customer_type_id">Loại khách: </label>
+                                    </td>
+                                    <td>
+                                        <input id="customer_type_id" type="text" name="customer_type_id">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="address_customer">Địa chỉ: </label>
+                                    </td>
+                                    <td>
+                                        <input id="address_customer" type="text" name="address_customer">
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary" value="Edit">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
 <%--modal_end--%>
 
 <table class="table">
@@ -63,13 +151,13 @@
         <td>@mdo</td>
         <td>@mdo</td>
         <td>
-            <a href="/addCustomer">
+            <a href="/customer?action=add">
                 <button type="button" class="btn btn-primary">add</button>
             </a>
         <td>
-            <a href="/editCustomer">
-                <button type="button" class="btn btn-primary">edit</button>
-            </a>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit">
+            edit
+        </button>
         </td>
         <td>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#delete">
@@ -91,7 +179,7 @@
                 add
             </button>
         <td>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit">
                 edit
             </button>
         </td>
@@ -115,7 +203,7 @@
                 add
             </button>
         <td>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edit">
                 edit
             </button>
         </td>

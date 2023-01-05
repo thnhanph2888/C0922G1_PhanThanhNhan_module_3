@@ -43,6 +43,15 @@ public class UserServlet extends HttpServlet {
                 case "sortDescending":
                     sortDescending(request, response);
                     break;
+                case "permission":
+                    addUserPermission(request, response);
+                    break;
+                case "test-without-tran":
+                    testWithoutTran(request, response);
+                    break;
+                case "test-use-tran":
+                    testUseTran(request, response);
+                    break;
                 default:
                     listUser(request, response);
                     break;
@@ -50,6 +59,22 @@ public class UserServlet extends HttpServlet {
         } catch (SQLException ex) {
             throw new ServletException(ex);
         }
+    }
+
+    private void testUseTran(HttpServletRequest request, HttpServletResponse response) {
+        userDAO.insertUpdateUseTransaction();
+    }
+
+    private void testWithoutTran(HttpServletRequest request, HttpServletResponse response) {
+        userDAO.insertUpdateWithoutTransaction();
+    }
+
+    private void addUserPermission(HttpServletRequest request, HttpServletResponse response) {
+        User user = new User("quan", "quan.nguyen@codegym.vn", "vn");
+
+        int[] permission = {1, 2, 4};
+
+        userDAO.addUserTransaction(user, permission);
     }
 
     private void sortDescending(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -70,7 +95,7 @@ public class UserServlet extends HttpServlet {
 
     private void deleteUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
         int id = Integer.parseInt(request.getParameter("id"));
-        userDAO.deleteUser(id);
+        userDAO.deleteUserProcedure(id);
 
         List<User> userList = userDAO.selectAllUser();
         request.setAttribute("listUser", userList);
@@ -79,7 +104,7 @@ public class UserServlet extends HttpServlet {
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
-        User existingUser = userDAO.selectUser(id);
+        User existingUser = userDAO.getUserById(id);
         request.setAttribute("user", existingUser);
         request.getRequestDispatcher("user/edit.jsp").forward(request, response);
     }
@@ -89,7 +114,7 @@ public class UserServlet extends HttpServlet {
     }
 
     private void listUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<User> listUser = userDAO.selectAllUser();
+        List<User> listUser = userDAO.selectAllUserProcedure();
         request.setAttribute("listUser", listUser);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/list.jsp");
         dispatcher.forward(request, response);
@@ -132,7 +157,7 @@ public class UserServlet extends HttpServlet {
         String country = request.getParameter("country");
 
         User book = new User(id, name, email, country);
-        userDAO.updateUser(book);
+        userDAO.updateUserProcedure(book);
         request.getRequestDispatcher("user/edit.jsp").forward(request, response);
     }
 
@@ -141,7 +166,7 @@ public class UserServlet extends HttpServlet {
         String email = request.getParameter("email");
         String country = request.getParameter("country");
         User newUser = new User(name, email, country);
-        userDAO.insertUser(newUser);
+        userDAO.insertUserStore(newUser);
         request.getRequestDispatcher("user/create.jsp").forward(request, response);
     }
 }

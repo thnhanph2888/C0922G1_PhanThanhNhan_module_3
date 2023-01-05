@@ -9,7 +9,7 @@
 <html>
 <head>
   <title>Add New Customer</title>
-  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
 </head>
 <body>
 <div class="d-flex justify-content-center mt-5">
@@ -87,5 +87,5 @@
   </form>
 </div>
 </body>
-<script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+<script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 </html>
