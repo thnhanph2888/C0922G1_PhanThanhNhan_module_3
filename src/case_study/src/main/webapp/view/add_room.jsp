@@ -30,7 +30,7 @@
 </div>
 <div>
     <form class="col-md-3 ms-5">
-        <table>
+        <table class="table">
             <tr>
                 <td>
                     <label for="id_service">id: </label>

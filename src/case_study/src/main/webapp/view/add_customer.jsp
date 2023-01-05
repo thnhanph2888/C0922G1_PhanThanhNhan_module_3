@@ -17,7 +17,7 @@
 </div>
 <div>
   <form class="col-md-3 ms-5">
-    <table>
+    <table class="table">
       <tr>
         <td>
           <label for="name_customer">Họ tên: </label>
