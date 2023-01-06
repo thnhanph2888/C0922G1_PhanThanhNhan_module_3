@@ -28,6 +28,9 @@ public class UserServlet extends HttpServlet {
 
         try {
             switch (action) {
+                case "created":
+                    insertUser(request, response);
+                    break;
                 case "create":
                     showCreateForm(request, response);
                     break;
@@ -61,7 +64,7 @@ public class UserServlet extends HttpServlet {
         }
     }
 
-    private void testUseTran(HttpServletRequest request, HttpServletResponse response) {
+    private void testUseTran(HttpServletRequest request, HttpServletResponse response) throws SQLException {
         userDAO.insertUpdateUseTransaction();
     }
 

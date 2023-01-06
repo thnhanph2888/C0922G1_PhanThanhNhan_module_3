@@ -271,6 +271,9 @@ public class UserDAO implements IUserDAO {
             if (resultSet.next()) {
                 useId = resultSet.getInt(1);
             }
+            if (true) {
+                System.out.println("demo");
+            }
             if (rowAffected == 1) {
                 String sqlPivot = "insert into user_permission(user_id, permission_id)"
                         + "values(?,?)";
