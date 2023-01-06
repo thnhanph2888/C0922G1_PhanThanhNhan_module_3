@@ -29,7 +29,7 @@
         </div>
     </div>
 </div>
-<h1>
+<h1 class="text-center m-5">
     Employee List
 </h1>
 <table class="table">
