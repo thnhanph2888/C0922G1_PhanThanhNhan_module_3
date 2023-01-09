@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: nhand
@@ -16,7 +17,7 @@
   <h1>Add New Customer</h1>
 </div>
 <div>
-  <form class="col-md-3 ms-5">
+  <form class="col-md-3 ms-5" method="post">
     <table class="table">
       <tr>
         <td>
@@ -36,10 +37,11 @@
       </tr>
       <tr>
         <td>
-          <label for="gender_customer">Giới tính: </label>
+         Giới tính:
         </td>
         <td>
-          <input id="gender_customer" type="text" name="gender_customer">
+            <input id="male" type="radio" name="gender" value="1"> <label>Nam</label>
+          <input id="female" type="radio" name="gender" value="0"> <label>Nữ</label>
         </td>
       </tr>
       <tr>
@@ -67,12 +69,22 @@
         </td>
       </tr>
       <tr>
+          <td>
+              <label for="attach_facility">Dịch vụ đi kèm</label>
+          </td>
         <td>
-          <label for="customer_type_id">Loại khách: </label>
+          <select id="attach_facility" name="attach_facility">
+            <c:forEach var="attachFacility" items="${attachFacilityList}">
+                 <option value="${attachFacility.getId()}">${attachFacility.getName()}</option>
+            </c:forEach>
+          </select>
         </td>
-        <td>
-          <input id="customer_type_id" type="text" name="customer_type_id">
-        </td>
+<%--        <td>--%>
+<%--          <label for="customer_type_id">Loại khách: </label>--%>
+<%--        </td>--%>
+<%--        <td>--%>
+<%--          <input id="customer_type_id" type="text" name="customer_type_id">--%>
+<%--        </td>--%>
       </tr>
       <tr>
         <td>

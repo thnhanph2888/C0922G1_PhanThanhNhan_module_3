@@ -22,8 +22,12 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
+// servlet
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
-}
+// jstl
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+// jdbc
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'}
 
 test {
     useJUnitPlatform()

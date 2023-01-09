@@ -1,6 +1,8 @@
 package com.example.furama.model;
 
 public class Customer {
+
+    private String id;
     private String name;
     private String birthday;
     private String gender;
@@ -9,8 +11,31 @@ public class Customer {
     private String email;
     private String customer_type_id;
     private String address;
+    private CustomerType customerType;
 
-    public Customer(String name, String birthday, String gender, String id_card, String phone, String email, String customer_type_id, String address) {
+    public CustomerType getCustomerType() {
+        return customerType;
+    }
+
+    public void setCustomerType(CustomerType customerType) {
+        this.customerType = customerType;
+    }
+
+    public Customer(String id, String name, String birthday, String gender, String id_card, String phone, String email, CustomerType customerType, String customer_type_id, String address) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.gender = gender;
+        this.id_card = id_card;
+        this.phone = phone;
+        this.email = email;
+        this.customer_type_id = customer_type_id;
+        this.customerType = customerType;
+        this.address = address;
+    }
+
+    public Customer(String id, String name, String birthday, String gender, String id_card, String phone, String email, String customer_type_id, String address) {
+        this.id = id;
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
@@ -19,6 +44,14 @@ public class Customer {
         this.email = email;
         this.customer_type_id = customer_type_id;
         this.address = address;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #0b0504;
+}
+
+th {
+    background-color: #0f5132;
+    color: white;
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+table {
+   margin: auto;
+    width: 80%;
+}

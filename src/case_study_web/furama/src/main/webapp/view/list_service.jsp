@@ -131,7 +131,7 @@
                     <h1 class="modal-title fs-5 col">Add House</h1>
                     <button type="button" class="col btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <button class="m-2 col btn btn-primary" data-bs-target="#add_villa" data-bs-toggle="modal">
                         villa
                     </button>
@@ -354,9 +354,6 @@
         </td>
         <td>
             <button class="btn btn-primary" data-bs-target="#add_villa" data-bs-toggle="modal">add</button>
-<%--            <a href="/addVilla">--%>
-<%--                <button type="button" class="btn btn-primary">add</button>--%>
-<%--            </a>--%>
         <td>
             <a href="/editVilla">
                 <button type="button" class="btn btn-primary">edit</button>
