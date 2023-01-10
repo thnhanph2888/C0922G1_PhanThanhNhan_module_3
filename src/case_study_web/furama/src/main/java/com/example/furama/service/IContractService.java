@@ -9,4 +9,5 @@ public interface IContractService {
     List<AttachFacility> getListFacility();
     List<AttachFacility> getListFacilityOfContract();
     List<Contract> getListContract();
+
 }

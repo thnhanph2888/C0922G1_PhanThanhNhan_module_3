@@ -13,6 +13,18 @@ public class Customer {
     private String address;
     private CustomerType customerType;
 
+    public Customer(String id, String name, String birthday, String gender, String id_card, String phone, String email, String address, CustomerType customerType) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.gender = gender;
+        this.id_card = id_card;
+        this.phone = phone;
+        this.email = email;
+        this.customerType = customerType;
+        this.address = address;
+    }
+
     public CustomerType getCustomerType() {
         return customerType;
     }

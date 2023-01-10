@@ -24,4 +24,5 @@ public class ContractService implements IContractService {
     public List<Contract> getListContract() {
         return contractRepository.getListContract();
     }
+
 }

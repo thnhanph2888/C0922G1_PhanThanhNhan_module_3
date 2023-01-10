@@ -1,7 +1,7 @@
 package com.example.furama.service;
 
-import com.example.furama.model.AttachFacility;
 import com.example.furama.model.Customer;
+import com.example.furama.model.CustomerType;
 
 import java.util.List;
 
@@ -13,8 +13,11 @@ public interface ICustomerService {
 
     boolean editCustomer (Customer customer);
 
-    Customer findCustomerById(int id);
+    Customer findCustomerByNameAndIdCard(String name, String idCard);
 
     boolean deleteById(int id);
+
+    List<CustomerType> getCustomerType();
+
 
 }

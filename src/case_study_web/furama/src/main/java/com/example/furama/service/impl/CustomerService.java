@@ -1,7 +1,6 @@
 package com.example.furama.service.impl;
-
-import com.example.furama.model.AttachFacility;
 import com.example.furama.model.Customer;
+import com.example.furama.model.CustomerType;
 import com.example.furama.repository.impl.CustomerRepository;
 import com.example.furama.service.ICustomerService;
 
@@ -27,12 +26,17 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public Customer findCustomerById(int id) {
-        return customerRepository.findCustomerById(id);
+    public Customer findCustomerByNameAndIdCard(String name, String idCard) {
+        return customerRepository.findCustomerByNameAndIdCard(name, idCard);
     }
 
     @Override
     public boolean deleteById(int id) {
         return customerRepository.deleteById(id);
+    }
+
+    @Override
+    public List<CustomerType> getCustomerType() {
+        return customerRepository.getCustomerType();
     }
 }

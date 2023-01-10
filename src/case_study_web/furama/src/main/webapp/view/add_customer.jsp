@@ -21,6 +21,14 @@
     <table class="table">
       <tr>
         <td>
+          <label for="id_customer">Id: </label>
+        </td>
+        <td>
+          <input id="id_customer" type="text" name="id_customer">
+        </td>
+      </tr>
+      <tr>
+        <td>
           <label for="name_customer">Họ tên: </label>
         </td>
         <td>
@@ -32,7 +40,7 @@
           <label for="birthday_customer">Ngày sinh: </label>
         </td>
         <td>
-          <input id="birthday_customer" type="text" name="birthday">
+          <input id="birthday_customer" type="text" name="birthday_customer">
         </td>
       </tr>
       <tr>
@@ -40,8 +48,8 @@
          Giới tính:
         </td>
         <td>
-            <input id="male" type="radio" name="gender" value="1"> <label>Nam</label>
-          <input id="female" type="radio" name="gender" value="0"> <label>Nữ</label>
+            <input id="male" type="radio" name="gender_customer" value="1"> <label>Nam</label>
+          <input id="female" type="radio" name="gender_customer" value="0"> <label>Nữ</label>
         </td>
       </tr>
       <tr>
@@ -70,21 +78,15 @@
       </tr>
       <tr>
           <td>
-              <label for="attach_facility">Dịch vụ đi kèm</label>
+              <label for="customer_type_id">Loại khách</label>
           </td>
         <td>
-          <select id="attach_facility" name="attach_facility">
-            <c:forEach var="attachFacility" items="${attachFacilityList}">
-                 <option value="${attachFacility.getId()}">${attachFacility.getName()}</option>
+          <select id="customer_type_id" name="customer_type_id">
+            <c:forEach var="customerType" items="${customerTypeList}">
+                 <option value="${customerType.getId()}">${customerType.getName()}</option>
             </c:forEach>
           </select>
         </td>
-<%--        <td>--%>
-<%--          <label for="customer_type_id">Loại khách: </label>--%>
-<%--        </td>--%>
-<%--        <td>--%>
-<%--          <input id="customer_type_id" type="text" name="customer_type_id">--%>
-<%--        </td>--%>
       </tr>
       <tr>
         <td>

@@ -10,27 +10,35 @@
 <html>
 <head>
     <title>Customer</title>
-    <link rel="stylesheet" href="../bootstrap520/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../datatables/css/dataTables.bootstrap5.min.css">
 </head>
 <body>
 <div class="d-flex justify-content-center mt-5">
     <h1>List Customer</h1>
 </div>
-<a class="position-relative " href="/customer?action=add">
-    <button type="button">add</button>
-</a>
-<c:if test = "${message != null}" >
+<div class="row ms-5">
+    <a class="position-relative " href="/customer?action=add">
+        <button type="button">add</button>
+    </a>
+    <form action="/customer?action=search" method="post">
+        <input name="name_search" placeholder="enter name..." type="text">
+        <input name="id_card_search" placeholder="enter search..." type="text">
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+<c:if test="${message != null}">
     <p>${message}</p>
 </c:if>
 <div id="delete" class="modal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
             <form action="/customer?action=delete" method="post">
-            <div class="modal-header">
-                <h5 class="modal-title">Delete Customer</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Delete Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
                     <input hidden type="text" id="idDelete" name="idDelete">
                     <span>Bạn có muốn xóa sinh viên</span>
@@ -146,7 +154,6 @@
             <th scope="col">Địa chỉ</th>
             <th scope="col"></th>
             <th scope="col"></th>
-            <th scope="col"></th>
         </tr>
         </thead>
         <tbody>
@@ -167,7 +174,7 @@
                 <td>${customer.getAddress()}</td>
                 <td>
                     <button onclick="infoEditCustomer(
-                              '${customer.getId()}'
+                            '${customer.getId()}'
                             , '${customer.getName()}'
                             , '${customer.getBirthday()}'
                             , '${customer.getGender()}'
@@ -191,13 +198,12 @@
         </tbody>
     </table>
 </div>
-<script rel="stylesheet" src="../bootstrap520/js/bootstrap.bundle.js"></script>
 <script src="../jquery/jquery-3.5.1.min.js"></script>
 <script src="../datatables/js/jquery.dataTables.min.js"></script>
 <script src="../datatables/js/dataTables.bootstrap5.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#tableStudent').dataTable({
+        $('#tableStudent').dataTable( {
             "dom": 'lrtip',
             "lengthChange": false,
             "pageLength": 5
