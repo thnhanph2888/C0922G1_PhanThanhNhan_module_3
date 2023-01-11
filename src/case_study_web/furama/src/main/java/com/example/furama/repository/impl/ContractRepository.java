@@ -20,7 +20,7 @@ public class ContractRepository implements IContractRepository {
             "join contract_detail cd on cd.contract_id = ca.id\n" +
             "join attach_facility af on af.id = cd.attach_facility_id ";
     private static final String GET_LIST_ATTACH_FACILITY_OF_CONTRACT = "select af.name from attach_facility af join contract_detail cd on cd.attach_facility_id = af.id";
-    private static final String GET_LIST_ATTACH_FACILITY = "select id, name from attach_facility";
+    private static final String GET_LIST_ATTACH_FACILITY = "select * from attach_facility";
     @Override
     public List<AttachFacility> getListAttachFacility() {
         List<AttachFacility> attachFacilityList = new ArrayList<>();

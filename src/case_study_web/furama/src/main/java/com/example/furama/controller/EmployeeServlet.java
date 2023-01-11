@@ -33,7 +33,7 @@ public class EmployeeServlet extends HttpServlet {
     }
 
     private void showListService(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("view/list_service.jsp").forward(request,response);
+        request.getRequestDispatcher("view/list_facility.jsp").forward(request,response);
     }
 
     private void showDeleteModal(HttpServletRequest request, HttpServletResponse response) {
@@ -54,6 +54,5 @@ public class EmployeeServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
     }
 }

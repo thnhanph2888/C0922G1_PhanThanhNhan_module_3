@@ -1,39 +1,111 @@
 package com.example.furama.model;
 
 public class Facility {
-    private int id;
+    private String id;
     private String name;
-    private int area;
-    private double cost;
-    private int max_people;
-    private int rent_type_id;
-    private int facility_type_id;
-    private String standard_room;
-    private String description_other_convenience;
-    private double pool_area;
-    private int number_of_floors;
-    private String facility_free;
+    private String area;
+    private String cost;
+    private String maxPeople;
+    private String rentTypeId;
+    private String facilityTypeId;
+    private String standardRoom;
+    private String descriptionOtherConvenience;
+    private String poolArea;
+    private String numberOfFloors;
+    private String facilityFree;
+    private FacilityType facilityType;
+    private RentType rentType;
 
-    public Facility(int id, String name, int area, double cost, int max_people, int rent_type_id, int facility_type_id, String standard_room, String description_other_convenience, double pool_area, int number_of_floors, String facility_free) {
+    public Facility(String id, String name, String area, String cost, String maxPeople, String standardRoom, String descriptionOtherConvenience, String poolArea, String numberOfFloors, String facilityFree, FacilityType facilityType, RentType rentType) {
         this.id = id;
         this.name = name;
         this.area = area;
         this.cost = cost;
-        this.max_people = max_people;
-        this.rent_type_id = rent_type_id;
-        this.facility_type_id = facility_type_id;
-        this.standard_room = standard_room;
-        this.description_other_convenience = description_other_convenience;
-        this.pool_area = pool_area;
-        this.number_of_floors = number_of_floors;
-        this.facility_free = facility_free;
+        this.maxPeople = maxPeople;
+        this.standardRoom = standardRoom;
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
+        this.poolArea = poolArea;
+        this.numberOfFloors = numberOfFloors;
+        this.facilityFree = facilityFree;
+        this.facilityType = facilityType;
+        this.rentType = rentType;
     }
 
-    public int getId() {
+    public FacilityType getFacilityType() {
+        return facilityType;
+    }
+
+    public void setFacilityType(FacilityType facilityType) {
+        this.facilityType = facilityType;
+    }
+
+    public RentType getRentType() {
+        return rentType;
+    }
+
+    public void setRentType(RentType rentType) {
+        this.rentType = rentType;
+    }
+
+    public Facility(String id, String name, String area, String cost, String maxPeople, String rentTypeId, String facilityTypeId, String standardRoom, String descriptionOtherConvenience, String poolArea, String numberOfFloors) {
+        this.id = id;
+        this.name = name;
+        this.area = area;
+        this.cost = cost;
+        this.maxPeople = maxPeople;
+        this.rentTypeId = rentTypeId;
+        this.facilityTypeId = facilityTypeId;
+        this.standardRoom = standardRoom;
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
+        this.poolArea = poolArea;
+        this.numberOfFloors = numberOfFloors;
+    }
+
+    public Facility(String id, String name, String area, String cost, String maxPeople, String rentTypeId, String facilityTypeId, String standardRoom, String descriptionOtherConvenience, String poolArea) {
+        this.id = id;
+        this.name = name;
+        this.area = area;
+        this.cost = cost;
+        this.maxPeople = maxPeople;
+        this.rentTypeId = rentTypeId;
+        this.facilityTypeId = facilityTypeId;
+        this.standardRoom = standardRoom;
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
+        this.poolArea = poolArea;
+    }
+
+    public Facility(String id, String name, String area, String cost, String maxPeople, String rentTypeId, String facilityTypeId, String facilityFree) {
+        this.id = id;
+        this.name = name;
+        this.area = area;
+        this.cost = cost;
+        this.maxPeople = maxPeople;
+        this.rentTypeId = rentTypeId;
+        this.facilityTypeId = facilityTypeId;
+        this.facilityFree = facilityFree;
+    }
+
+
+    public Facility(String id, String name, String area, String cost, String maxPeople, String rentTypeId, String facilityTypeId, String standardRoom, String descriptionOtherConvenience, String poolArea, String numberOfFloors, String facilityFree) {
+        this.id = id;
+        this.name = name;
+        this.area = area;
+        this.cost = cost;
+        this.maxPeople = maxPeople;
+        this.rentTypeId = rentTypeId;
+        this.facilityTypeId = facilityTypeId;
+        this.standardRoom = standardRoom;
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
+        this.poolArea = poolArea;
+        this.numberOfFloors = numberOfFloors;
+        this.facilityFree = facilityFree;
+    }
+
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -45,85 +117,83 @@ public class Facility {
         this.name = name;
     }
 
-    public int getArea() {
+    public String getArea() {
         return area;
     }
 
-    public void setArea(int area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public double getCost() {
+    public String getCost() {
         return cost;
     }
 
-    public void setCost(double cost) {
+    public void setCost(String cost) {
         this.cost = cost;
     }
 
-    public int getMax_people() {
-        return max_people;
+    public String getMaxPeople() {
+        return maxPeople;
     }
 
-    public void setMax_people(int max_people) {
-        this.max_people = max_people;
+    public void setMaxPeople(String maxPeople) {
+        this.maxPeople = maxPeople;
     }
 
-    public int getRent_type_id() {
-        return rent_type_id;
+    public String getRentTypeId() {
+        return rentTypeId;
     }
 
-    public void setRent_type_id(int rent_type_id) {
-        this.rent_type_id = rent_type_id;
+    public void setRentTypeId(String rentTypeId) {
+        this.rentTypeId = rentTypeId;
     }
 
-    public int getFacility_type_id() {
-        return facility_type_id;
+    public String getFacilityTypeId() {
+        return facilityTypeId;
     }
 
-    public void setFacility_type_id(int facility_type_id) {
-        this.facility_type_id = facility_type_id;
+    public void setFacilityTypeId(String facilityTypeId) {
+        this.facilityTypeId = facilityTypeId;
     }
 
-    public String getStandard_room() {
-        return standard_room;
+    public String getStandardRoom() {
+        return standardRoom;
     }
 
-    public void setStandard_room(String standard_room) {
-        this.standard_room = standard_room;
+    public void setStandardRoom(String standardRoom) {
+        this.standardRoom = standardRoom;
     }
 
-    public String getDescription_other_convenience() {
-        return description_other_convenience;
+    public String getDescriptionOtherConvenience() {
+        return descriptionOtherConvenience;
     }
 
-    public void setDescription_other_convenience(String description_other_convenience) {
-        this.description_other_convenience = description_other_convenience;
+    public void setDescriptionOtherConvenience(String descriptionOtherConvenience) {
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
     }
 
-    public double getPool_area() {
-        return pool_area;
+    public String getPoolArea() {
+        return poolArea;
     }
 
-    public void setPool_area(double pool_area) {
-        this.pool_area = pool_area;
+    public void setPoolArea(String poolArea) {
+        this.poolArea = poolArea;
     }
 
-    public int getNumber_of_floors() {
-        return number_of_floors;
+    public String getNumberOfFloors() {
+        return numberOfFloors;
     }
 
-    public void setNumber_of_floors(int number_of_floors) {
-        this.number_of_floors = number_of_floors;
+    public void setNumberOfFloors(String numberOfFloors) {
+        this.numberOfFloors = numberOfFloors;
     }
 
-    public String getFacility_free() {
-        return facility_free;
+    public String getFacilityFree() {
+        return facilityFree;
     }
 
-    public void setFacility_free(String facility_free) {
-        this.facility_free = facility_free;
+    public void setFacilityFree(String facilityFree) {
+        this.facilityFree = facilityFree;
     }
-
-
 }

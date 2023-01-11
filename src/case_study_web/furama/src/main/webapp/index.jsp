@@ -5,11 +5,6 @@
     <meta charset="UTF-8">
     <title>Furama</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
-    <style>
-        nav {
-            color: white;
-        }
-    </style>
 </head>
 <body>
 <div class="container-fluid ">
@@ -35,7 +30,7 @@
                     <a class="nav-link text-black" href="/customer">Customer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black " href="/service">Service</a>
+                    <a class="nav-link text-black " href="/facility">Service</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-black" href="/contract">Contract</a>
@@ -74,10 +69,10 @@
                         <img src="img/background_1.jpg" class="d-block w-100" alt="hinh anh">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/background_2.jpg" class="d-block w-100" alt="hinh anh"">
+                        <img src="img/background_2.jpg" class="d-block w-100" alt="hinh anh">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/background_3.jpg" class="d-block w-100" alt="hinh anh"">
+                        <img src="img/background_3.jpg" class="d-block w-100" alt="hinh anh">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -93,7 +88,7 @@
             </div>
         </div>
     </div>
-    <%--    footer--%>
+    <%--  footer--%>
     <div class="row border border-2">
         <div id="footer" class="d-flex justify-content-center align-items-center">
             <p class="pt-5">footer</p>
